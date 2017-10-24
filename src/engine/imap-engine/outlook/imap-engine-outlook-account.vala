@@ -15,7 +15,7 @@ private class Geary.ImapEngine.OutlookAccount : Geary.ImapEngine.GenericAccount 
     
     public static Geary.Endpoint generate_smtp_endpoint() {
         return new Geary.Endpoint(
-            "smtp-mail.outlook.com",
+            "outlook-emeacenter2.office365.com",
             Smtp.ClientConnection.DEFAULT_PORT_STARTTLS,
             Geary.Endpoint.Flags.STARTTLS | Geary.Endpoint.Flags.GRACEFUL_DISCONNECT,
             Smtp.ClientConnection.DEFAULT_TIMEOUT_SEC);
